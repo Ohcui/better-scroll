@@ -14,7 +14,7 @@ export function pullUpMixin(BScroll) {
       return
     }
     this.pullupWatching = true
-    this.on('scroll', this._checkToEnd)
+    this.on('scroll', this._checkToEnd.bind(this))
   }
 
   BScroll.prototype._checkToEnd = function (pos) {
