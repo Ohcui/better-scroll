@@ -1,10 +1,10 @@
 {
-  "name": "better-scroll",
+  "name": "better-scroll-fix-scrollup",
   "version": "1.15.2",
-  "description": "inspired by iscroll, and it has a better scroll perfermance",
+  "description": "fix better scroll scroll callback lost issue",
   "author": {
-    "name": "huangyi",
-    "email": "ustbhuangyi@gmail.com"
+    "name": "ohcui",
+    "email": "cuishuo_jvyuan@icloud.com"
   },
   "main": "dist/bscroll.js",
   "module": "dist/bscroll.esm.js",
@@ -21,7 +21,7 @@
   "bugs": {
     "url": "https://github.com/ustbhuangyi/better-scroll/issues"
   },
-  "homepage": "https://github.com/ustbhuangyi/better-scroll",
+  "homepage": "https://github.com/Ohcui/better-scroll",
   "keywords": [
     "scroll",
     "iscroll",
@@ -31,7 +31,7 @@
   "licenses": "MIT",
   "repository": {
     "type": "git",
-    "url": "git@github.com:ustbhuangyi/better-scroll.git"
+    "url": "git@github.com:Ohcui/better-scroll.git"
   },
   "dependencies": {
     "babel-runtime": "^6.0.0"
