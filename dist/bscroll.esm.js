@@ -1,6 +1,6 @@
 /*!
  * better-normal-scroll v1.15.2
- * (c) 2016-2019 ustbhuangyi
+ * (c) 2016-2020 ustbhuangyi
  * Released under the MIT License.
  */
 // As of V8 6.6, depending on the size of the array, this is anywhere
@@ -2661,7 +2661,7 @@ function pullUpMixin(BScroll) {
       return;
     }
     this.pullupWatching = true;
-    this.on('scroll', this._checkToEnd);
+    this.on('scroll', this._checkToEnd.bind(this));
   };
 
   BScroll.prototype._checkToEnd = function (pos) {

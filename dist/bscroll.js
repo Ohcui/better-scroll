@@ -1,6 +1,6 @@
 /*!
  * better-normal-scroll v1.15.2
- * (c) 2016-2019 ustbhuangyi
+ * (c) 2016-2020 ustbhuangyi
  * Released under the MIT License.
  */
 (function (global, factory) {
@@ -2667,7 +2667,7 @@ function pullUpMixin(BScroll) {
       return;
     }
     this.pullupWatching = true;
-    this.on('scroll', this._checkToEnd);
+    this.on('scroll', this._checkToEnd.bind(this));
   };
 
   BScroll.prototype._checkToEnd = function (pos) {
